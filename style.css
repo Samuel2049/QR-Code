@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 13vh;
+}
+.background{
+    height: 500px;
+    width: 80vw;
+    background-color:lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+p{
+    text-align:center;
+    width: 200px;
+}
+
+.container{
+    border: 1px solid black; 
+    border-radius: 12px;
+    width: 220px;
+    height: 370px;
+    background-color: white;
+    
+
+}
+img{
+    display: block;
+    width: 200px;
+    padding-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+.Logo{
+    font-size: 17px;
+    font-weight: 900;
+    padding: 9px 9px;
+
+    
+}
+.Use-mode{
+    font-weight: 400;
+    color: grey;
+    padding-left: 9px;
+
+}
+
+
