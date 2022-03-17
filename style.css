@@ -1,37 +1,36 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
 }
 .page{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    margin-top: 13vh;
+    align-items: center;
+    height: 100vh;
 }
 .background{
-    height: 500px;
+    /* width: 80vw; */
     width: 80vw;
+    height: 500px;
     background-color:lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 p{
     text-align:center;
     width: 200px;
+    margin: 0 auto;
 }
 
 .container{
     border: 1px solid black; 
     border-radius: 12px;
     width: 220px;
-    height: 370px;
-    background-color: white;
-    
-
+    height: 350px;
+    background-color: white;    
 }
 img{
     display: block;
@@ -41,18 +40,14 @@ img{
     margin-right: auto;
     border-radius: 8px;
 }
+
 .Logo{
     font-size: 17px;
     font-weight: 900;
-    padding: 9px 9px;
-
-    
 }
 .Use-mode{
     font-weight: 400;
     color: grey;
-    padding-left: 9px;
-
 }
 
 
